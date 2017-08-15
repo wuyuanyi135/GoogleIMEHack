@@ -102,7 +102,7 @@ I chose to hack `LatinIme.smali` because the English keyboard is problematic whi
     const/4 v0, 0x1
 
     :cond_0
-	const/4 v0, 0x1      # <----- Add this line
+    const/4 v0, 0x1      # <----- Add this line
     return v0
 .end method
 ```
