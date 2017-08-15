@@ -1,7 +1,7 @@
 # GoogleIMEHack
-###Always correct by hacking the .apk. No root. No Xposed Framework.
+### Always correct by hacking the .apk. No root. No Xposed Framework.
 ***Gboard not tested.***
-#Intro
+# Intro
 I bought a Samsung Galaxy S8 and started to use [Google Pinyin Input](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.pinyin&hl=en). Everything was fine until I found that the suggestion bar did not come up when inputting in some search bar especially in Google's product (Chrome!!!). It was a nightmare for "swypers" because you don't have candidates to correct. 
 
 I thought it was a bug until John Bowdre [said](https://productforums.google.com/forum/#!topic/nexus/N-To9B037BM):
@@ -29,7 +29,7 @@ As suggested by some guys, the only working solution was to use Xposed module [A
 No files provided in this repository. You can download them from the links.
 
 
-#Steps
+# Steps
 
 ## Get the APK
 Use your APK extraction tool, download and send the apk to your computer
