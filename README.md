@@ -115,6 +115,6 @@ Install: `adb install output.s.apk`
 You can also use the batch script `inst.bat` in this repository. Note that the name may be different.
 If there is error like `Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install com.google.android.inputmethod.pinyin without first uninstalling.]`, just do what suggested. The `uninst.bat` can help you to do that.
 If you do not like adb, copy the signed apk to your phone to install.
-
+ 
 # Ending
 ![Enjoy](https://raw.github.com/wuyuanyi135/GoogleIMEHack/master/enjoy.png)
