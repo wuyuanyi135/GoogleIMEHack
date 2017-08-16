@@ -46,18 +46,29 @@ change directory into the folder called "smali" in the generated folder.
 There are essentially lots of injection points to override the behavior. For example
 
 File: `ns.smali` (This file locates in the `smali` folder)
+
 Class: `Lns`
+
 Function: `u`
+
 Description:  computes if `TYPE_TEXT_FLAG_NO_SUGGESTIONS` flag (0x80000) is set. 
 
+
 File: `com\google\android\apps\inputmethod\libs\latin\LatinIme.smali`
+
 Class: `Lcom/google/android/apps/inputmethod/libs/latin/LatinIme` 
+
 Function: `computeShouldShowSuggestions`
+
 Description:  English keyboard implementation that computes whether the suggestion bar should be shown or not.
 
+
 File: `com\google\android\apps\inputmethod\libs\framework\ime\AbstractIme.smali`
+
 Class: `Lcom/google/android/apps/inputmethod/libs/framework/ime/AbstractIme` 
+
 Function: `computeShouldShowSuggestions`
+
 Description:  Super class of the previous one. Hacking this will affect all keyboards.
 
 
